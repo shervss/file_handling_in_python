@@ -26,4 +26,8 @@ even_squares = [num ** 2 for num in even_numbers]
 odd_cubes = [num ** 3 for num in odd_numbers]
 
 # Write even squares to double.txt
+with open('double.txt', 'w') as double_file:
+    for square in even_squares:
+        double_file.write(str(square) + '\n')
+
 # Write odd cubes to triple.txt
