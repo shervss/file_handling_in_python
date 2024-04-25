@@ -8,4 +8,6 @@
 line = input("Enter line: ")
 
 # Write the line to the file
+file.write(line + '\n')
+
 # Ask if there are more lines to add
