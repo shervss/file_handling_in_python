@@ -23,3 +23,9 @@ def main():
     with open("odd.txt", "w") as odd_file:
         for num in odd_numbers:
             odd_file.write(str(num) + "\n")
+
+    print("Even and odd numbers extracted and written to even.txt and odd.txt respectively.")
+
+
+if __name__ == "__main__":
+    main()
