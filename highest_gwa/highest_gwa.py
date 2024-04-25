@@ -17,7 +17,8 @@ def main():
             highest_gwa = gwa
             highest_gwa_student = name
 
-# Output the name of the student with the highest GWA
+    # Output the name of the student with the highest GWA
+    print(f"The student with the highest GWA is: {highest_gwa_student}, GWA: {highest_gwa}\n")
 
 if __name__ == "__main__":
     main()
