@@ -31,3 +31,6 @@ with open('double.txt', 'w') as double_file:
         double_file.write(str(square) + '\n')
 
 # Write odd cubes to triple.txt
+with open('triple.txt', 'w') as triple_file:
+    for cube in odd_cubes:
+        triple_file.write(str(cube) + '\n')
