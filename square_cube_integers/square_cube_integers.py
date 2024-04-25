@@ -20,6 +20,8 @@ with open(input_file, 'r') as file:
             odd_numbers.append(number)
 
 # Calculate squares of even numbers
+even_squares = [num ** 2 for num in even_numbers]
+
 # Calculate cubes of odd numbers
 # Write even squares to double.txt
 # Write odd cubes to triple.txt
