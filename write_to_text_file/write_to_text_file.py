@@ -11,3 +11,6 @@ line = input("Enter line: ")
 file.write(line + '\n')
 
 # Ask if there are more lines to add
+more_lines = input("Are there more lines? (y/n): ").lower()
+            if more_lines != 'y':
+                break
