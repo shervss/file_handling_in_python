@@ -3,7 +3,6 @@
 #          student who achieved the highest GWA, including their GWA score.
 
 # Pseudocode
-# Read number from numbers.txt
-# Extract even and odd numbers
-# Write even numbers to even.txt
-# Write odd numbers to odd.txt
+# Read student names and GWAs from file
+# Find student with highest GWA
+# Output the name of the student with the highest GWA
