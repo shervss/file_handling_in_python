@@ -5,6 +5,18 @@
 
 # Pseudocode
 # Read numbers from numbers.txt
+input_file = 'integers.txt'
+even_numbers = []
+odd_numbers = []
+
+with open(input_file, 'r') as file:
+    for line in file:
+        number = int(line.strip())
+        if number % 2 == 0:
+            even_numbers.append(number)
+        else:
+            odd_numbers.append(number)
+
 # Extract even and odd numbers
 # Write even numbers to even.txt
 # Write odd numbers to odd.txt
