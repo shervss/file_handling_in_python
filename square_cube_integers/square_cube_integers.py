@@ -23,5 +23,7 @@ with open(input_file, 'r') as file:
 even_squares = [num ** 2 for num in even_numbers]
 
 # Calculate cubes of odd numbers
+odd_cubes = [num ** 3 for num in odd_numbers]
+
 # Write even squares to double.txt
 # Write odd cubes to triple.txt
